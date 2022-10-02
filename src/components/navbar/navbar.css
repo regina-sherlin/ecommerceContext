@@ -1,0 +1,35 @@
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 1.5em;
+    color: blueviolet;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .header__container{
+      width: 1000px;
+      
+    }
+   } 
+
+ /* navbar    */
+.navbar__wrapper ul {
+    display: flex;   
+}
+
+.navbar__wrapper ul li{
+    list-style-type: none;
+    margin-right: 1rem;
+}
+
+.nav__link{
+    text-decoration: none;
+}
+
+.header__logo{
+    font-weight: 600;
+    text-transform: uppercase;
+}

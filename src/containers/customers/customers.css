@@ -1,0 +1,40 @@
+.hero__wrapper{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100vh;
+   
+}
+
+.hero__header{
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__options{
+    display: flex;
+}
+
+.button{
+    font-size: 14;  
+    padding: 10px 20px ;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-grey{
+    background-color: #dddddd;
+    color: #000;
+}
+
+.button-purple{
+    background-color: rgb(80, 72, 229);
+    color: #fff;
+}
+
+.thumbnail{
+    width: 100%;
+    
+}

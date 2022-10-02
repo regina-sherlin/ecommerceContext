@@ -1,0 +1,73 @@
+
+footer {
+    height: 400px;
+    background-color: var(orange);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 3em;
+    margin-left: 3em;
+
+   
+
+}
+h4{
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: var(brown);
+}
+
+p{
+    align-items: flex-start;
+    font-size: 16px;
+}
+
+.footer-right{
+    display: flex;
+    align-items: center;
+    
+
+    
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    margin-left: 4rem;
+
+    
+}
+.menu ul, .service ul, .about-us ul{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+li{
+    text-transform: capitalize;
+}
+.footer-line{
+    height: 100px;
+    background-color: var(orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.hr-line{
+    border-top: 2px solid #000;
+}
+
+small{
+    font-size: 14px;
+    letter-spacing: 1px;
+}

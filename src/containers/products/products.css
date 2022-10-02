@@ -1,0 +1,141 @@
+.products__wrapper{
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px auto;
+    padding: 10px;
+    width: 1200px;
+    
+    user-select: none;
+}
+
+.products__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+.products__body{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, .8fr);
+}
+
+ @media screen and (max-width: 1200px) {
+    .products__body{
+        grid-template-columns: 30% 30% 30%;
+    }
+} 
+
+
+@media screen and (max-width: 800px) {
+    .products__body{
+        grid-template-columns: 30% 30% ;
+    }
+  } 
+
+/* ProductList */
+.product__list{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.product__img{
+    text-align: center;
+    background-color: #f9f9f9;
+    height: 80%;
+}
+
+.product__img img{
+    width: 60%;
+    height: 100%;
+}
+
+.product__info{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.product__cta{
+    display: flex; 
+    text-align: center;
+    /* border-top: 1px solid rgb(0, 149, 195); */
+}
+
+.product__cta-left{
+    width: 50%;
+    height: 100%;
+}
+
+.product__cta-right{
+    width: 50%;
+}
+
+.product__add-cart-btn {
+    padding: 5px .5em;
+    cursor: pointer;
+    background: #fff;
+}
+
+.product__add-cart-btn:hover{
+ background-color: #f9f9f9;
+}
+
+.product__buy-btn{
+    padding: .5em;
+    background: #e9d5ff;
+    color: #000;
+}
+
+.product__add-cart-counter{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+}
+
+.counter_input{
+    width: 40%;
+    overflow: hidden;
+    
+    border: none;
+    outline: none;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.increment_counter{
+    width: 30%;
+    height: 100%;
+    font-size: 1.25em;
+    cursor: pointer;
+    background-color: gainsboro;
+    color: #000;
+    align-items: center;
+    
+}
+
+.decrement_counter{
+    width: 30%;
+    height: 100%;
+    font-size: 1.25em;
+    cursor: pointer;
+    background-color: gainsboro;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.decrement_counter:focus {
+    font-size: 5em;
+    background-color: rgb(57, 57, 175);
+    
+}
+
