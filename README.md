@@ -17,7 +17,7 @@ The users should be able to:
  - Implemented prop drilling for laying out product data in the form of cards
  - Refined knowledge of using useState hook
  - Used CSS grid for cards layout
- - 
+ 
  **More fine-tuning needed to the project/ Future modifications ⏱️
   - Make it responsive for mobile screens
   - Add more functionality
